@@ -2,33 +2,28 @@
 //  MarkEdit langauge: Spanish
 //  MarkEdit idioma: Español
 //
-//  Note:  These translations were created with Google translator.
-//  I'm sure they sound really awkwards.  If a native speaker would
-//  be interested in polishing it up, it would be a great benefit.
-//
-
 MarkEditLanguage = function() {
 
     return {
 
         'defaultButtons': {
             'bold': {
-                'tip': 'Bold'
+                'tip': 'Negrita'
             },
             'italic': {
-                'tip': 'Itálico'
+                'tip': 'Cursiva'
             },
             'link': {
-                'tip': 'Insertar hipervínculo'
+                'tip': 'Insertar enlace'
             },
             'image': {
                 'tip': 'Insertar imagen'
             },
             'code': {
-                'tip': 'Ejemplo de código'
+                'tip': 'Código'
             },
             'quote': {
-                'tip': 'Blockquote'
+                'tip': 'Cita'
             },
             'numberlist': {
                 'tip': 'Lista numerada'
@@ -40,28 +35,37 @@ MarkEditLanguage = function() {
                 'tip': 'Línea horizontal'
             },
             'heading': {
-                'tip': 'Denominación'
+                'tip': 'Encabezado'
             },
+			'undo': {
+				'tip': 'Deshacer'
+			},
+			'redo': {
+				'tip': 'Rehacer' 
+			},
             'edit': {
                 'text': 'Redactar',
                 'tip': 'Ver en modo de edición'
             },
             'preview': {
-                'text': 'Prevista',
+                'text': 'Previsualizar',
                 'tip': 'Ver en modo de vista preliminar'
-            }
+            },
+			'help': {
+				'tip': 'Ayuda'
+			}
         },
 
         'dialog': {
             'insertLink': {
-                'title': 'Insertar hipervínculo',
-                'helpText': 'Escriba la dirección URL que desee insertar.',
+                'title': 'Insertar enlace',
+                'helpText': 'Escriba la dirección URL que desea insertar.',
                 'insertButton': 'Insertar',
                 'cancelButton': 'Cancelar'
             },
             'insertImage': {
                 'title':'Insertar imagen',
-                'helpText': 'Introduzca la dirección URL de la imagen que desee insertar.',
+                'helpText': 'Introduzca la dirección URL de la imagen que desea insertar.',
                 'insertButton': 'Insertar',
                 'cancelButton': 'Cancelar'
             }
